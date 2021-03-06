@@ -12,7 +12,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>maven-release-example</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <properties>
         <java.version>11</java.version>
@@ -55,7 +55,7 @@
         <connection>scm:git:git@github.com:tisuter/maven-release-example.git</connection>
         <url>scm:git:git@github.com:tisuter/maven-release-example.git</url>
         <developerConnection>scm:git:git@github.com:tisuter/maven-release-example.git</developerConnection>
-      <tag>v1.0.1-SNAPSHOT</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
