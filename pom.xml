@@ -47,10 +47,9 @@
     </build>
 
     <scm>
-        <connection>scm:git:https://github.com/user/project.git</connection>
-        <url>http://github.com/user/project</url>
-        <developerConnection>scm:git:https://github.com/user/project.git</developerConnection>
-      <tag>maven-release-example-1.0.0</tag>
-  </scm>
+        <connection>scm:git:git@github.com:tisuter/maven-release-example.git</connection>
+        <url>scm:git:git@github.com:tisuter/maven-release-example.git</url>
+        <developerConnection>scm:git:git@github.com:tisuter/maven-release-example.git</developerConnection>
+    </scm>
 
 </project>
