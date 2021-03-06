@@ -43,7 +43,8 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.0-M1</version>
                 <configuration>
-                    <tag>v{$project.version}</tag>
+                    <tag>v${project.version}</tag>
+                    <branchName>develop</branchName>
                 </configuration>
 
             </plugin>
